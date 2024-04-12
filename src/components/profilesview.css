@@ -1,0 +1,201 @@
+/* profilesview.css */
+.headingskill {
+  text-align: center; /* Corrected to align center */
+  font-size: 30px;
+}
+
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  font-size: 20px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 5px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.close-btn {
+  padding: 25px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 50%;
+  width: 40px; /* Increased width */
+  height: 40px; /* Increased height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.close-btn:hover {
+  background-color: #aaa;
+  color: white;
+}
+
+
+.book-now-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.book-now-btn:hover {
+  background-color: #333;
+}
+
+.confirm-btn {
+  background-color: black; /* Button background color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  margin-top: 20px; /* Margin from the top */
+}
+
+.confirm-btn:hover {
+  background-color: #333; /* Hover background color */
+}
+
+
+.filter-pane {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.filter-pane label {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.filter-pane label input[type="number"],
+.filter-pane label select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.filter-pane label input[type="number"]::-webkit-inner-spin-button,
+.filter-pane label input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -10px;
+  font-size: 16px;
+}
+
+.profile-item {
+  background-color: #b6b4b4;
+  width: 300px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.profile-item:hover {
+  transform: translateY(-5px);
+}
+
+.profile-item h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.profile-item button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.profile-item button:hover {
+  background-color: #3e8e41;
+}
+
+.headingskill {
+  padding-top: 40px;
+}
+
+.popup label {
+  display: block;
+  margin-bottom: 10px; /* Add margin-bottom for space between labels */
+}
+
+.popup label:last-child {
+  margin-bottom: 20px; /* Increase margin-bottom for the last label */
+}
+
+
+.bookings-container {
+  margin: 20px;
+}
+
+.booked-profile-item {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  padding: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.booked-profile-item:hover {
+  transform: translateY(-5px);
+}
+
+.booked-profile-item h4 {
+  margin-bottom: 10px;
+}
+
+.booked-profile-item button {
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.booked-profile-item button:hover {
+  background-color: #e00000;
+}

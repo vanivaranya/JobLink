@@ -1,0 +1,122 @@
+.search-form {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.search-input {
+  width: 80%;
+  max-width: 600px;
+  height: 50px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  background-color: #f8f9fa;
+  color: #000000; /* Black font color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.search-button {
+  background: #117d25; /* Gradient of green and yellow */
+  color: #ffffff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #0d5e1c; /* Darker green on hover */
+}
+
+/* Search Result */
+.searchresult {
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  padding: 20px;
+  background: linear-gradient(45deg, #22c1c3, #fdbb2d); /* Gradient of green and yellow */
+  width: fit-content;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.searchresult a {
+  text-decoration: none;
+  color: #ffffff; /* White font color */
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.searchresult:hover {
+  filter: brightness(110%);
+  transform: scale(1.05);
+}
+
+/* Categories Section */
+h3 {
+  margin-top: 50px;
+  font-size: 60px;
+  text-align: center;
+  color: rgb(32, 32, 32); /* Green color */
+  transition: all 0.3s ease;
+}
+
+.category-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+  margin-top: 30px;
+  padding: 0 20px;
+  transition: all 0.3s ease;
+}
+
+.category-list div {
+  background: linear-gradient(45deg, rgb(166, 245, 171), rgba(220, 255, 220, 0.8));  /* Gradient background */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Enhanced box shadow */
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+  text-align: center;
+  border: 2px solid transparent;
+  border-bottom: 8px solid rgba(13, 94, 28, 0.7); /* Gradient border */
+}
+
+.category-list div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Enhanced box shadow on hover */
+}
+
+.category-list div h4 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333333; /* Slightly lighter black */
+  transition: all 0.3s ease;
+}
+
+.category-list div a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #ffffff; /* White font color */
+  background-color: #117d25; /* Green color */
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Added transform transition */
+}
+
+.category-list div a:hover {
+  background: #0b561c; /* Gradient of green and yellow */
+  color: #ffffff; /* White font color on hover */
+  transform: scale(1.1); /* Scale up the button on hover */
+}

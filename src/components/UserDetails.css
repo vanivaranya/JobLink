@@ -1,0 +1,54 @@
+.profile-card {
+    max-width: 400px;
+    margin: 30px auto; /* Added margin for spacing */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow for depth */
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Enclose the photo inside a circle */
+    margin-bottom: 20px;
+  }
+  
+  .profile-details {
+    margin-bottom: 20px;
+  }
+  
+  .profile-details label {
+    font-weight: bold;
+  }
+  
+  .profile-details input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Added margin for spacing */
+  }
+  
+  .action-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Button background color */
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .action-buttons button:hover {
+    background-color: #3e8e41; /* Button background color on hover */
+  }
