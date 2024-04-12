@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# JobLink
+
+## Website screenshots
+https://github.com/vanivaranya/JobLink/tree/main/JobLink%20SS
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
