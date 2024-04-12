@@ -1,0 +1,46 @@
+error: Error: Failed to lookup view "index" in views directory "C:\Users\tanya\OneDrive\Desktop\JobLink/views"
+    at Function.render (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\application.js:597:17)
+    at ServerResponse.render (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\response.js:1039:7)
+    at C:\Users\tanya\OneDrive\Desktop\JobLink\index.js:44:7
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\index.js:280:10)
+error: Error: Failed to lookup view "index" in views directory "C:\Users\tanya\OneDrive\Desktop\JobLink/views"
+    at Function.render (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\application.js:597:17)
+    at ServerResponse.render (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\response.js:1039:7)
+    at C:\Users\tanya\OneDrive\Desktop\JobLink\index.js:39:7
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\index.js:280:10)
+error: Error: Failed to lookup view "index" in views directory "C:\Users\tanya\OneDrive\Desktop\JobLink/views"
+    at Function.render (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\application.js:597:17)
+    at ServerResponse.render (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\response.js:1039:7)
+    at C:\Users\tanya\OneDrive\Desktop\JobLink\index.js:39:7
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\index.js:280:10)
+error: Error: Failed to lookup view "index" in views directory "C:\Users\tanya\OneDrive\Desktop\JobLink/views"
+    at Function.render (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\application.js:597:17)
+    at ServerResponse.render (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\response.js:1039:7)
+    at C:\Users\tanya\OneDrive\Desktop\JobLink\index.js:39:7
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\tanya\OneDrive\Desktop\JobLink\node_modules\express\lib\router\index.js:280:10)
+{"level":"error","message":"Error: Failed to lookup view \"signup\" in views directory \"C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\views\"\n    at Function.render (C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\node_modules\\express\\lib\\application.js:597:17)\n    at ServerResponse.render (C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\node_modules\\express\\lib\\response.js:1039:7)\n    at C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\index.js:73:7\n    at Layer.handle [as handle_request] (C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\node_modules\\express\\lib\\router\\index.js:280:10)","timestamp":"2024-04-03T22:41:01.579Z"}
+{"level":"error","message":"Error: Cannot find module 'html'\nRequire stack:\n- C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\node_modules\\express\\lib\\view.js\n- C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\node_modules\\express\\lib\\application.js\n- C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\node_modules\\express\\lib\\express.js\n- C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\node_modules\\express\\index.js\n- C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\index.js\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)\n    at Module._load (node:internal/modules/cjs/loader:922:27)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at new View (C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\node_modules\\express\\lib\\view.js:81:14)\n    at Function.render (C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\node_modules\\express\\lib\\application.js:587:12)\n    at ServerResponse.render (C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\node_modules\\express\\lib\\response.js:1039:7)\n    at C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\index.js:73:7\n    at Layer.handle [as handle_request] (C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\tanya\\OneDrive\\Desktop\\JobLink\\node_modules\\express\\lib\\router\\route.js:144:13)","timestamp":"2024-04-03T22:42:29.485Z"}
